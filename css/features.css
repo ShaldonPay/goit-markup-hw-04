@@ -5,6 +5,25 @@
 
 .features-item {
   width: calc((100% - 72px) / 4);
+  text-align: center;
+}
+
+.features-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  margin: 0 auto 8px;
+  background-color: #f4f4fd;
+  border: 1px solid #e8e8f0;
+  border-radius: 4px;
+}
+
+.features-icon {
+  width: 64px;
+  height: 64px;
+  color: #2e2f42;
 }
 
 .features-subtitle {
@@ -13,25 +32,12 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.features-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 264px;
-  height: 112px;
-  margin: 0 auto 24px;
-  padding: 24px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  color: var(--navy-blue);
-  box-sizing: border-box;
+  color: #434455;
 }

@@ -109,3 +109,12 @@ address {
 .nav-link:focus::after {
   opacity: 1;
 }
+
+.nav-link.active {
+  color: #404bbf;
+}
+
+.nav-link.active::after {
+  opacity: 1;
+  background-color: #404bbf;
+}
